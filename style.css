@@ -37,9 +37,9 @@ body{
 
 .nav-logo img{
   display:block;
-  width:88px;
+  width:160px;
   height:auto;
-  max-height:88px;
+  max-height:62px;
   object-fit:contain
 }
 
@@ -86,10 +86,9 @@ body{
 }
 
 .hero-lockup{
-  display:block !important;
-  width:520px !important;
-  max-width:80vw !important;
-  height:auto !important;
+  display:block;
+  width:min(300px,58vw);
+  height:auto
 }
 
 .statement{
@@ -253,7 +252,7 @@ body{
   width:112px;
   height:112px;
   border-radius:50%;
-  font:700 12px "DM Mono",monospace;
+  font:700 12px "Space Grotesk",sans-serif;
   transform:rotate(-12deg);
   margin-top:35px
 }
@@ -307,7 +306,7 @@ body{
 }
 
 .domain{
-  font:10px "DM Mono",monospace;
+  font:10px "Space Grotesk",sans-serif;
   margin-top:40px;
   letter-spacing:.05em
 }
@@ -330,8 +329,8 @@ footer{
   }
 
   .nav-logo img{
-    width:88px;
-    max-height:88px
+    width:135px;
+    max-height:54px
   }
 
   .nav nav{display:none}
