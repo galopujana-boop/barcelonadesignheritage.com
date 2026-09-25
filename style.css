@@ -285,7 +285,7 @@ body{
   display:block
 }
 
-.gallery-item.tall img{height:520px}
+.gallery-item.tall img{height:360px}
 
 .contact{
   padding:180px 7vw 150px;
