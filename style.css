@@ -36,13 +36,12 @@ body{
 }
 
 .nav-logo img{
-  display:block !important;
-  width:200px !important;
-  height:auto !important;
-  max-width:none !important;
-  max-height:none !important;
-  min-width:200px !important;
-  object-fit:contain
+  display:block;
+  width:88px;
+  height:auto;
+  object-fit:contain;
+  transform:scale(1.25);
+  transform-origin:left center;
 }
 
 .nav nav{
