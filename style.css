@@ -37,9 +37,9 @@ body{
 
 .nav-logo img{
   display:block;
-  width:160px;
+  width:88px;
   height:auto;
-  max-height:62px;
+  max-height:88px;
   object-fit:contain
 }
 
@@ -86,7 +86,7 @@ body{
 
 .hero-lockup{
   display:block;
-  width:min(300px,58vw);
+  width:min(380px,65vw);
   height:auto
 }
 
@@ -328,8 +328,8 @@ footer{
   }
 
   .nav-logo img{
-    width:135px;
-    max-height:54px
+    width:88px;
+    max-height:88px
   }
 
   .nav nav{display:none}
