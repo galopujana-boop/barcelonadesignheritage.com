@@ -83,9 +83,10 @@ body{
   justify-content:center;
   padding:100px 24px 50px
 }
+
 .hero-lockup{
   display:block !important;
-  width:600px !important;
+  width:520px !important;
   max-width:80vw !important;
   height:auto !important;
 }
