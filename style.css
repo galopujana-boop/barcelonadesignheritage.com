@@ -32,7 +32,9 @@ body{
 .nav-logo{
   display:flex;
   align-items:center;
-  text-decoration:none
+  text-decoration:none;
+  width:200px;
+  height:auto
 }
 
 .nav-logo img{
