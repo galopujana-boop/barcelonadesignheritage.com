@@ -1,16 +1,16 @@
-# Barcelona Design Heritage — website v2
+# Barcelona Design Heritage
 
-This version is rebuilt from the BDH Brandbook (2026/2027), using its visual language and supplied photography.
+Final static website for Barcelona Design Heritage.
 
-Key brand content incorporated:
-- “Catalan sourcing for the world.”
-- “We don't just sell furniture, we bring a legacy.”
-- Manifesto / Mediterranean Soul of Architecture
-- Barcelona Atelier
-- Heritage Timeline
-- Authenticity & Effortless Procurement
-- Barcelona / Shanghai positioning
+Languages:
+- `index.html` — English (default)
+- `zh.html` — Simplified Chinese, editorially revised for natural Chinese brand language
 
-The site is a single static HTML page and is ready for GitHub Pages.
+Positioning:
+- CATALAN SOURCING FOR THE WORLD
+- Barcelona is the sourcing/design origin.
+- Shanghai and Ho Chi Minh City are Asian connection points.
+- The identity is not locked to a fixed list of cities.
 
-Replace `hello@barcelonadesignheritage.com` if you use a different contact address.
+Sections:
+Manifesto · Barcelona Atelier · Heritage Timeline · Authenticity & Effortless Procurement · Global Presence · Contact

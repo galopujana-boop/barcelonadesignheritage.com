@@ -9,33 +9,26 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Libre+Baskerville:wght@400&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
 <header class="nav">
-  <a href="#top" class="nav-logo">BDH</a>
+  <a href="#top" class="nav-logo"><img src="images/bdh-lockup.png" alt="Barcelona Design Heritage"></a>
   <nav>
     <a href="#manifesto">Manifesto</a>
     <a href="#atelier">Barcelona Atelier</a>
     <a href="#heritage">Heritage</a>
-    <a href="#procurement">Procurement</a>
+    <a href="#procurement">Procurement</a><a href="#global">Global</a>
   </nav>
-  <a href="#contact" class="nav-contact">Contact</a>
+  <div class="nav-actions"><a href="#contact" class="nav-contact">Contact</a><span class="lang"><span class="active">EN</span><span>/</span><a href="zh.html">中文</a></span></div>
 </header>
 
 <main id="top">
   <section class="hero">
-    <div class="hero-lockup">
-      <img src="images/bdh-logo.jpg" alt="Barcelona Design Heritage">
-    </div>
-    <div class="hero-meta">
-      <span>BARCELONA</span><span>&</span><span>SHANGHAI</span>
-    </div>
-    <p class="hero-tagline">CATALAN SOURCING FOR THE WORLD.</p>
-    <p class="hero-year">EST. 2026</p>
+    <img class="hero-lockup" src="images/bdh-lockup.png" alt="Barcelona Design Heritage">
   </section>
 
   <section class="statement">
-    <p class="kicker">BDH / 01</p>
     <h1>We don't just sell furniture.<br><em>We bring a legacy.</em></h1>
     <div class="statement-image">
       <img src="images/chairs.jpg" alt="Historic Catalan furniture in a warm architectural interior">
@@ -45,13 +38,12 @@
   <section id="manifesto" class="section split">
     <div class="section-title">
       <p class="kicker">MANIFESTO</p>
-      <h2>The Mediterranean<br>Sou<span>l</span> of Architecture</h2>
-      <p class="cn-title">建筑的地中海灵魂</p>
+      <h2>The Mediterranean<br>Soul of Architecture</h2>
     </div>
     <div class="body-copy">
-      <p>Design in Barcelona is not an aesthetic trend; it is an enduring architectural legacy. Born from the unique interplay between Mediterranean light, raw materiality, and decades of creative freedom, Catalan design celebrates functional honesty and timeless elegance.</p>
-      <p>We bridge this rich tradition with the world's most ambitious architectural projects, offering direct access to authentic, original design icons.</p>
-      <p class="cn">巴塞罗那的设计并非一种美学潮流，而是一份经久不衰的建筑遗产。它诞生于地中海独特的光线、天然的材质以及数十年来自由的创作精神，加泰罗尼亚设计崇尚实用性和永恒的优雅。</p>
+      <p>Design in Barcelona is not an aesthetic trend; it is an enduring architectural legacy.</p>
+      <p>Born from the unique interplay between Mediterranean light, honest materials and decades of creative freedom, Catalan design is rooted in functional honesty and timeless elegance.</p>
+      <p>We bridge this rich tradition with contemporary architecture and interiors around the world, bringing authentic design from Barcelona to the spaces that define them.</p>
     </div>
   </section>
 
@@ -59,22 +51,23 @@
     <div class="atelier-head">
       <div>
         <p class="kicker">BARCELONA ATELIER</p>
-        <h2>Where architectural heritage<br>meets the art of master craftsmanship.</h2>
+        <h2>Where Architectural Heritage<br>Meets Master Craftsmanship</h2>
       </div>
-      <p class="cn-title">巴塞罗那工坊</p>
     </div>
     <div class="atelier-grid">
       <div class="atelier-copy">
-        <p>Barcelona functions as a living, breathing atelier for fine international design. Beyond its world-renowned architectural heritage, the city thrives on a deeply rooted network of specialized artisan workshops, master cabinetmakers, hand-blown glass technicians and high-precision metalworkers.</p>
-        <p>Here, design is never treated as a commodity for mass production; each creation is patiently crafted, meticulously refined, and brought to perfection through generations of inherited technical mastery.</p>
+        <p>Barcelona is a living atelier for exceptional design.</p>
+        <p>Beyond its world-renowned architectural heritage, the city is home to a deeply rooted network of specialised workshops, master cabinetmakers, glassblowers and skilled metalworkers.</p>
+        <p>Here, design is not simply made for mass production. Each piece is carefully crafted and refined through generations of technical knowledge and craftsmanship.</p>
       </div>
       <div class="atelier-copy">
-        <p>This unique ecosystem bridges artistic freedom and industrial rigor. Time-honored Mediterranean techniques coexist with cutting-edge manufacturing processes, allowing designers to experiment with complex forms and noble raw materials.</p>
-        <p>Every piece in our curated portfolio emerges directly from this vibrant atelier culture, manufactured under demanding European quality and environmental standards.</p>
+        <p><strong>This unique ecosystem bridges artistic freedom and industrial rigour.</strong></p>
+        <p>Across Catalonia, time-honoured Mediterranean techniques coexist with contemporary manufacturing processes, allowing designers and makers to explore complex forms, natural materials and new ways of working.</p>
+        <p>From established design icons to emerging makers and one-of-a-kind pieces, our collection reflects the creative culture of Barcelona and its surrounding territory.</p>
       </div>
       <div class="atelier-images">
         <img src="images/atelier.jpg" alt="Barcelona architectural heritage">
-        <img src="images/craftsmanship.jpg" alt="Traditional woodworking craftsmanship">
+        <img src="images/craftsmanship.jpg" alt="Traditional craftsmanship">
       </div>
     </div>
   </section>
@@ -82,13 +75,12 @@
   <section id="heritage" class="section heritage">
     <div class="section-title">
       <p class="kicker">HERITAGE TIMELINE</p>
-      <h2>Three moments.<br>One living tradition.</h2>
-      <p class="cn-title">时代传承</p>
+      <h2>Three eras.<br>One living culture.</h2>
     </div>
     <div class="timeline">
-      <article><strong>1900s</strong><div><h3>The artisanal dawn</h3><p>The Catalan modernisme movement defines the concept of a total work of art, merging architecture with master ironwork, bespoke cabinetry and organic geometry.</p></div></article>
-      <article><strong>1960s–1970s</strong><div><h3>The golden age</h3><p>The birth of contemporary industrial design in Barcelona. A pioneering generation embraces refined rationalism, warm materiality and noble Mediterranean craftsmanship.</p></div></article>
-      <article><strong>Present</strong><div><h3>Contemporary masters</h3><p>A new wave of international design visionaries continues to expand the boundaries of Catalan design, honoring traditional manufacturing while introducing fresh, sculptural expression.</p></div></article>
+      <article><strong>1900s</strong><div><h3>The Artisanal Dawn</h3><p>Catalan Modernisme established the idea of the total work of art, bringing architecture together with master craftsmanship, bespoke interiors and organic forms. Barcelona's architecture became a meeting point between artistic vision and exceptional craftsmanship, with figures such as Antoni Gaudí and Josep Maria Jujol helping define this distinctive language.</p></div></article>
+      <article><strong>1960s–1970s</strong><div><h3>A New Language of Design</h3><p>Barcelona's creative culture evolved into a new language of modern design. Designers, architects and makers embraced functional clarity, honest materials and the Mediterranean way of living, creating pieces that remain relevant across generations.</p></div></article>
+      <article><strong>Present</strong><div><h3>A Living Design Culture</h3><p>Today, Barcelona continues to evolve through a new generation of designers, architects and makers. Traditional craftsmanship meets contemporary technology, independent studios coexist with established manufacturers, and new voices continue to reinterpret the Mediterranean spirit.</p><p><strong>This living culture is the heritage we source from today.</strong></p></div></article>
     </div>
     <div class="heritage-images">
       <img src="images/heritage-gold.jpg" alt="Sculptural contemporary design">
@@ -99,23 +91,36 @@
 
   <section id="procurement" class="section procurement">
     <div class="procurement-title">
-      <p class="kicker">AUTHENTICITY & EFFORTLESS PROCUREMENT</p>
-      <h2>Architectural rigor.<br>Effortless logistics.</h2>
-      <p class="cn-title">正品保障与无忧采购</p>
+      <p class="kicker">AUTHENTICITY &amp; EFFORTLESS PROCUREMENT</p>
+      <h2>Architectural Rigor,<br>Effortless Logistics</h2>
       <span class="certified">CERTIFIED</span>
     </div>
     <div class="procurement-copy">
-      <p>In an era of mass replication and complex global supply chains, we safeguard both the artistic integrity of your project and the execution process. We act as your single, trusted European partner from specification to final delivery.</p>
+      <p>In an era of mass replication and complex global supply chains, we safeguard both the integrity of each piece and the execution of your project.</p>
+      <p>From selection and specification to final delivery, we act as your trusted European partner.</p>
       <ul>
-        <li><b>100% Authorized Editions</b> — sourced exclusively from official European archival publishers, complete with designer signatures, serial numbers and certificates of origin.</li>
-        <li><b>Consolidated European Logistics</b> — quality control, warehouse consolidation in Barcelona and door-to-door international freight.</li>
-        <li><b>Turnkey Export & Customs Clearance</b> — full handling of export documentation, duties and Asian customs compliance.</li>
+        <li><b>Authorised &amp; Authentic</b> — We source directly from trusted European manufacturers, publishers, workshops and makers, ensuring the authenticity and provenance of every piece.</li>
+        <li><b>Consolidated European Logistics</b> — Quality control, warehouse consolidation in Barcelona and international door-to-door freight, managed through a single point of contact.</li>
+        <li><b>Turnkey Export &amp; Customs</b> — Export documentation, duties and customs coordination handled from start to finish for a seamless international B2B experience.</li>
       </ul>
     </div>
     <div class="procurement-images">
-      <img src="images/logistics.jpg" alt="International logistics and shipping">
+      <img src="images/logistics.jpg" alt="International logistics and transport">
       <img src="images/procurement-detail.jpg" alt="Architectural product detail">
     </div>
+  </section>
+
+<section id="global" class="section global-presence">
+    <div class="global-intro">
+      <p class="kicker">GLOBAL PRESENCE</p>
+      <h2>Barcelona is our source.<br>Asia is our horizon.</h2>
+    </div>
+    <div class="global-grid">
+      <article><span class="city">BARCELONA</span><h3>Sourcing · Design · Craftsmanship</h3></article>
+      <article><span class="city">SHANGHAI</span><h3>China · Asia</h3></article>
+      <article><span class="city">HO CHI MINH CITY</span><h3>Southeast Asia</h3></article>
+    </div>
+    <p class="global-closing">Connecting Catalan design with international projects, from a network rooted in Barcelona and growing across Asia.</p>
   </section>
 
   <section class="gallery">
@@ -128,15 +133,15 @@
   </section>
 
   <section id="contact" class="contact">
-    <p class="kicker">BARCELONA / SHANGHAI</p>
-    <h2>Let's bring<br><em>the legacy</em><br>forward.</h2>
-    <a class="email" href="mailto:hello@barcelonadesignheritage.com">hello@barcelonadesignheritage.com</a>
+    <p class="kicker">BARCELONA</p>
+    <h2>Let the legacy<br><em>move forward.</em></h2>
+    <a class="email" href="mailto:hello@barcelonadesignheritage.com">Contact</a>
     <p class="domain">BARCELONADESIGNHERITAGE.COM</p>
   </section>
 </main>
 
 <footer>
-  <span>© 2026 Barcelona Design Heritage</span>
+  <span>© 2026 Barcelona Design Heritage</span><span>CATALAN SOURCING FOR THE WORLD</span>
   <span>Catalan sourcing for the world.</span>
 </footer>
 </body>
