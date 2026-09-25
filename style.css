@@ -86,9 +86,10 @@ body{
 }
 
 .hero-lockup{
-  display:block;
-  width:min(300px,58vw);
-  height:auto
+  display:block !important;
+  width:520px !important;
+  max-width:80vw !important;
+  height:auto !important;
 }
 
 .statement{
@@ -328,11 +329,13 @@ footer{
     padding:17px 18px
   }
 
-  .nav-logo img{
-    width:135px;
-    max-height:54px
-  }
-
+.nav-logo img{
+  display:block;
+  width:88px;
+  height:auto;
+  max-height:88px;
+  object-fit:contain;
+}
   .nav nav{display:none}
 
   .nav-actions{
