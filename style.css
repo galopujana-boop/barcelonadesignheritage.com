@@ -39,7 +39,7 @@ body{
   display:block;
   width:160px;
   height:auto;
-  max-height:62px;
+  max-height:100px;
   object-fit:contain
 }
 
@@ -329,7 +329,7 @@ footer{
 
   .nav-logo img{
     width:135px;
-    max-height:54px
+    max-height:85px
   }
 
   .nav nav{display:none}
