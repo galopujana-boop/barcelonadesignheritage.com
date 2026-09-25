@@ -252,7 +252,7 @@ body{
   width:112px;
   height:112px;
   border-radius:50%;
-  font:700 12px "Space Grotesk",sans-serif;
+  font:700 12px "DM Mono",monospace;
   transform:rotate(-12deg);
   margin-top:35px
 }
@@ -306,7 +306,7 @@ body{
 }
 
 .domain{
-  font:10px "Space Grotesk",sans-serif;
+  font:10px "DM Mono",monospace;
   margin-top:40px;
   letter-spacing:.05em
 }
