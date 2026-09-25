@@ -86,10 +86,9 @@ body{
 }
 
 .hero-lockup{
-  display:block !important;
-  width:520px !important;
-  max-width:80vw !important;
-  height:auto !important;
+  display:block;
+  width:min(300px,58vw);
+  height:auto
 }
 
 .statement{
@@ -329,13 +328,11 @@ footer{
     padding:17px 18px
   }
 
-.nav-logo img{
-  display:block;
-  width:88px;
-  height:auto;
-  max-height:88px;
-  object-fit:contain;
-}
+  .nav-logo img{
+    width:135px;
+    max-height:54px
+  }
+
   .nav nav{display:none}
 
   .nav-actions{
@@ -499,4 +496,21 @@ html[lang="zh-CN"] .timeline h3{
   .global-grid article:last-child{border-bottom:0}
 
   .global-closing{margin-top:35px}
+}
+
+/* FINAL LOGO SIZING — keep these values */
+.nav-logo img{
+  display:block !important;
+  width:88px !important;
+  max-width:88px !important;
+  height:auto !important;
+  max-height:88px !important;
+  object-fit:contain !important;
+}
+
+.hero-lockup{
+  display:block !important;
+  width:520px !important;
+  max-width:80vw !important;
+  height:auto !important;
 }
