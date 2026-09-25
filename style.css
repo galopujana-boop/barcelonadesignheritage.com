@@ -70,7 +70,8 @@ body{
 
 .lang a,.lang .active{
   font:700 10px "DM Mono",monospace;
-  letter-spacing:.04em
+  letter-spacing:.04em;
+  line-height:1
 }
 
 .lang a{opacity:.55}
