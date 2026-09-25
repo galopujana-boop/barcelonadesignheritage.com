@@ -433,7 +433,7 @@ html[lang="zh-CN"] .timeline h3{
 }
 
 .global-intro h2{
-  font-size:clamp(42px,6vw,82px);
+  font-size:clamp(38px,6vw,82px);
   line-height:.94;
   letter-spacing:-.05em;
   max-width:780px
