@@ -436,9 +436,7 @@ html[lang="zh-CN"] .timeline h3{
   font-size:clamp(42px,6vw,82px);
   line-height:.94;
   letter-spacing:-.05em;
-  max-width:1000px;
-  width:100%;
-  white-space:normal
+  max-width:780px
 }
 
 .global-grid{
